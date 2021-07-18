@@ -5,21 +5,21 @@
 }
 
 @font-face {
-  font-family: fund;
-  src: url(../fonts//NimbusSanL-Reg.otf);
+  font-family: wadim;
+  src: url(../fonts/wadim_giant.ttf);
 }
 
 @font-face {
-  font-family: fund-bold;
-  src: url(../fonts/NimbusSanL-Bol.otf);
+  font-family:wadim-outline;
+  src: url(../fonts/outline.ttf);
 }
 @font-face {
-  font-family: fund-italic;
-  src: url(../fonts/NimbusSanL-RegIta.otf);
+  font-family: wadim-italic;
+  src: url(../fonts/italic.ttf);
 }
 
 body{
-  font-family: fund;
+  font-family: wadim;
 }
  
 
@@ -46,49 +46,34 @@ body{
 
   // Header css 
 
-    .header-main{
-      background:url(../images/banner/1.jpg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center right;
-      @media(max-width:1024px){
-        background-position: 387% 59%;
-      }
-      @media(max-width:768px){
-        background-position: 231% 77px;
-      }
-      @media(max-width:600px){
-        background-position: 222px 76px;
-      }
-      
+    .header-main{  
+      position: relative; 
+
+      z-index: 2;
       .navbar{
         padding-top: 2.2rem;
       }
       .navbar-brand{
         @media(max-width:425px){
           width: 220px;
-        }
-       
-      }
-    .slider{
-      padding:0 15px; 
-      height: 80vh;
-      display: flex;
-      align-items: center;
-      @media(max-width:768px){
-        height: 50vh;
-      }
-      .slideInfo{ 
-        h1{
-          color: #204476;
-          font-family: fund;
-          font-weight: revert;        
-        }
-        p{
-          color: $theme;
-        }
+        } 
+      } 
+  }
+
+  .navbar-custom{
+    .nav-item{
+      .nav-link{
+        font-size: 1.3rem;
+       @media(min-width:1024px){
+        margin: 0 25px;
+       }
       }
     }
+  }
+
+  .slider{
+    position: absolute;
+    top: 0;
   }
 
   .progress{

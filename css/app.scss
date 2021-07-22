@@ -118,7 +118,8 @@ $white:#fff;
   .swiper-pagination {
     position: absolute;
     bottom: 40px;
-    @media(max-width:768px){
+
+    @media(max-width:768px) {
       left: 40%;
     }
   }
@@ -130,13 +131,14 @@ $white:#fff;
     background: #9F6D22;
     opacity: 1;
     margin: 4px;
-    &.swiper-pagination-bullet-active{
-      background: #000!important;
+
+    &.swiper-pagination-bullet-active {
+      background: #000 !important;
     }
   }
 }
 
- 
+
 
 .swiper-container {
   width: 300px;
@@ -144,7 +146,8 @@ $white:#fff;
   position: absolute;
   right: 8%;
   top: 37%;
-  @media(max-width:768px){
+
+  @media(max-width:768px) {
     top: 150px;
   }
 
@@ -158,6 +161,35 @@ $white:#fff;
 
 .swiper-wrapper {
   height: auto;
+}
+
+// games store
+
+.game-store {
+  padding: 120px 0 ;
+  .storeTitle {
+    font-size: 5rem;
+    color: #D3DADF;
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 15px;
+    } 
+  }
+  .in-game-store{
+    font-size: 41px;
+  margin-top: -35px;
+  color: #d3dadf;
+  .inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    img{ 
+       
+    }
+  }
+  }
 }
 
 //footer

@@ -93,6 +93,53 @@
       </div>
     </div>
   </div>
+  <section class="my-5">
+    <div class="container">
+      <div class="section-divider">
+        <div class="line">
+          <hr>
+        </div>
+        <div class='title'>
+          <span class="iconify " data-icon="carbon:play-filled-alt" data-inline="false"></span>
+            <span class="ml-4">go to game store</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="recommandation"> 
+  
+     <div class="row col-md-12">
+      <div class="col-md-6">
+        <div class="black">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> <img src="./images/banner/1.png"> </div>
+              <div class="swiper-slide"> <img src="./images/banner/2.png"> </div>
+              <div class="swiper-slide"> <img src="./images/banner/3.png"> </div>
+            </div>
+            <!-- If we need pagination --> 
+          </div>
+          <div class="bottomInfo">
+            <div class="left">
+              <h2>game <br> recommandation</h2>  
+            </div>
+            <div class="right">
+              <div>
+                81
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="lightSection">
+          <img src="/images/gameboy.png"  >
+        </div>
+      </div>
+     </div>
+     
+     
+  </section>
 
   <footer>
     <div class="container">
@@ -155,7 +202,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <!-- <script src="https://code.iconify.design/2/2.0.1/iconify.min.js"></script> -->
+  <script src="https://code.iconify.design/2/2.0.1/iconify.min.js"></script>
   <script src='./js/app.js'> </script>
   <script>
     var swiper = new Swiper('.swiper-container', {
@@ -165,7 +212,7 @@
       spaceBetween: 10,
       grabCursor: true,
       loop: true,
-      pagination: '.swiper-pagination',
+      pagination: '.swiper-pagination', 
       paginationClickable: true,
       autoplay: {
         delay: 5000,
@@ -175,6 +222,7 @@
         el: '.swiper-pagination',
         clickable: true,
       },
+      
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

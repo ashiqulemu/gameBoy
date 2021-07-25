@@ -266,6 +266,105 @@ body {
   }
 }
 
+.section-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-divider .line {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.section-divider .line hr {
+  width: 90%;
+  height: 5px;
+  background: #a59898;
+}
+
+.section-divider .title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #5E5E5E;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recommandation {
+  background: #D2D9DD;
+}
+
+.recommandation .black {
+  background: #292D36;
+  position: relative;
+}
+
+.recommandation .black .swiper-container {
+  position: relative;
+}
+
+.recommandation .black .bottomInfo {
+  -webkit-box-shadow: -18px -9px 20px #0000008f;
+          box-shadow: -18px -9px 20px #0000008f;
+  border-top: 1px solid wheat;
+  background: #E9B747;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.recommandation .black .bottomInfo .left h2 {
+  line-height: 0.8;
+  margin-right: 50px;
+  font-size: 3rem;
+}
+
+.recommandation .black .bottomInfo .right {
+  -ms-flex-preferred-size: 160px;
+      flex-basis: 160px;
+}
+
+.recommandation .black .bottomInfo .right div {
+  font-size: 5rem;
+  text-align: center;
+  -webkit-transform: scale(2.2);
+          transform: scale(2.2);
+  color: #c39a3d;
+}
+
+.recommandation .lightSection {
+  background: radial-gradient(grey, lightgrey);
+  width: 100%;
+}
+
+.recommandation .lightSection img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   padding: 50px 0;
   border-top: 1px solid #D1D1D1;

@@ -216,8 +216,8 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  height: 400px;
   width: 100%;
-  height: auto;
 }
 
 @media (max-width: 1023px) {
